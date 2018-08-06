@@ -42,6 +42,6 @@ int Partition(Sqlist *L, int low, int high)
 
 /*
 时间复杂度分析：
-	最好情况是 O(n)
+	最好情况是 O(nlog(n))
 	最差情况是 O(n^2)
 */
